@@ -7,7 +7,7 @@ $(function(){
         for (i = 0; i < 10; i++) {
             str += chars[Math.floor(Math.random() * chars.length)];
         }
-    return str;
+        return str;
     }
 
     function Column(name) {
@@ -105,8 +105,8 @@ $(function(){
     board.createColumn(doingColumn);
     board.createColumn(doneColumn);
 
-   // var card1 = new Card();
-   // var card2 = new Card();
+    // var card1 = new Card();
+    // var card2 = new Card();
 
 
     todoColumn.createCard;
